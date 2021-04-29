@@ -1,0 +1,137 @@
+{
+	"Java 8": {
+		"colour": "orange",
+		"bootstrapClassName": "label-warning",
+		"category": "programming language"
+	},
+	"JavaScript": {
+		"colour": "yellow",
+		"bootstrapClassName": "label-warning",
+		"category": "programming language"
+	},
+	"Swift": {
+		"colour": "red",
+		"bootstrapClassName": "label-danger",
+		"category": "programming language"
+	},
+	"Arduino": {
+		"colour": "blue",
+		"bootstrapClassName": "label-primary",
+		"category": "programming language"
+	},
+	"Spring MVC": {
+		"colour": "green",
+		"bootstrapClassName": "label-success",
+		"category": "backend"
+	},
+	"React.js": {
+		"colour": "blue",
+		"bootstrapClassName": "label-primary",
+		"category": "frontend"
+	},
+	"Meteor.js": {
+		"colour": "orange",
+		"bootstrapClassName": "label-warning",
+		"category": "backend"
+	},
+	"Node.js": {
+		"colour": "grey",
+		"bootstrapClassName": "label-default",
+		"category": "backend"
+	},
+	"AWS API Gateway": {
+		"colour": "orange",
+		"bootstrapClassName": "label-warning",
+		"category": "backend"
+	},
+	"JavaFX": {
+		"colour": "light blue",
+		"bootstrapClassName": "label-info",
+		"category": "backend"
+	},
+	"Android": {
+		"colour": "green",
+		"bootstrapClassName": "label-success",
+		"category": "mobile"
+	},
+	"Google Cloud": {
+		"colour": "green",
+		"bootstrapClassName": "label-success",
+		"category": "cloud platform"
+	},
+	"AWS": {
+		"colour": "orange",
+		"bootstrapClassName": "label-warning",
+		"category": "cloud platform"
+	},
+	"JSP": {
+		"colour": "red",
+		"bootstrapClassName": "label-danger",
+		"category": "frontend"
+	},
+	"Next.js": {
+		"colour": "grey",
+		"bootstrapClassName": "label-default",
+		"category": "frontend"
+	},
+	"Bootstrap": {
+		"colour": "blue",
+		"bootstrapClassName": "label-primary",
+		"category": "frontend"
+	},
+	"React-Semantic UI": {
+		"colour": "light blue",
+		"bootstrapClassName": "label-info",
+		"category": "frontend"
+	},
+	"React-Bootstrap": {
+		"colour": "blue",
+		"bootstrapClassName": "label-primary",
+		"category": "frontend"
+	},
+	"HTML5": {
+		"colour": "orange",
+		"bootstrapClassName": "label-warning",
+		"category": "frontend"
+	},
+	"CSS": {
+		"colour": "blue",
+		"bootstrapClassName": "label-primary",
+		"category": "frontend"
+	},
+	"XML": {
+		"colour": "grey",
+		"bootstrapClassName": "label-default",
+		"category": "frontend"
+	},
+	"MySQL": {
+		"colour": "light blue",
+		"bootstrapClassName": "label-info",
+		"category": "database"
+	},
+	"MongoDB": {
+		"colour": "green",
+		"bootstrapClassName": "label-success",
+		"category": "database"
+	},
+	"PostgreSQL": {
+		"colour": "blue",
+		"bootstrapClassName": "label-primary",
+		"category": "database"
+	},
+	"Tomcat": {
+		"colour": "grey",
+		"bootstrapClassName": "label-default",
+		"category": "server"
+	},
+	"CI/CD": {
+		"colour": "green",
+		"bootstrapClassName": "label-success",
+		"category": "process"
+	},
+	"Webscraping": {
+		"colour": "light blue",
+		"bootstrapClassName": "label-info",
+		"category": "process"
+	}
+}
