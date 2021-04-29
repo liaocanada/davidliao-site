@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from './shared/components/Layout';
 import Project from './Project';
 import groupBy from '../helpers/groupBy';
+import insertEveryN from '../helpers/insertEveryN';
 
 import projects from '../data/projects.json';
 
@@ -20,15 +21,25 @@ const Projects = () => {
 
         <h3>Personal Projects</h3>
         <div id="projects-row" className="row">
-          {personalProjects.map(project => <Project {...project} />)}
+          {insertEveryN(
+            personalProjects.map(project => <Project {...project} />),
+            <div className="clearfix visible-md-block" />,
+            3,
+            3,
+            true
+          )}
         </div>
-        {/* <div th:if="${iStat.index % 3 == 2}" className="clearfix visible-md-block"></div> */}
 
         <h3>Work Projects</h3>
         <div id="projects-row" className="row">
-          {workProjects.map(project => <Project {...project} />)}
+          {insertEveryN(
+            workProjects.map(project => <Project {...project} />),
+            <div className="clearfix visible-md-block" />,
+            3,
+            3,
+            true
+          )}
         </div>
-        {/* <div th:if="${iStat.index % 3 == 2}" className="clearfix visible-md-block"></div> */}
 
         <div className="page-header">
           <h3>Software of interest</h3>
@@ -36,13 +47,14 @@ const Projects = () => {
         </div>
         <div className="well">
           <ul>
-            <li><b>Amazon Web Services</b>: Going for Solutions Architect Associate this summer!</li>
-            <li>Docker/Kubernetes</li>
+            <li><b>Amazon Web Services</b></li>
+            <li>Docker</li>
+            <li>Kubernetes</li>
             <li>Jenkins</li>
-            <li>Ansible</li>
+            <li>Spinnaker</li>
             <li>Terraform</li>
+            <li>Ansible</li>
             <li>Go</li>
-            <li>Ruby/Ruby on Rails</li>
           </ul>
         </div>
 
