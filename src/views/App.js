@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 
 // Pages
-import Home from './home/Home';
+import Home from './Home';
 
 const App = () => (
   <Router>

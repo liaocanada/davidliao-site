@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Layout from '../shared/components/Layout';
+import Layout from './shared/components/Layout';
 
 const Home = () => (
   <Layout>
