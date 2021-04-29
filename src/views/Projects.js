@@ -21,6 +21,7 @@ const Projects = () => {
 
         <h3>Personal Projects</h3>
         <div id="projects-row" className="row">
+          {/* TODO figure out how to assign each element a key?? */}
           {insertEveryN(
             personalProjects.map(project => <Project {...project} />),
             <div className="clearfix visible-md-block" />,

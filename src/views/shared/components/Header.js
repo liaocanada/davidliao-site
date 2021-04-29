@@ -32,7 +32,7 @@ const Header = () => (
         </div>
       </div>
     </nav>
-    <div style={{"margin-top": "62px"}}></div>
+    <div style={{marginTop: "62px"}}></div>
   </>
 );
 
