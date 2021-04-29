@@ -19,7 +19,6 @@ const Header = () => (
             <span className="icon-bar"></span>
           </button>
           <Link className="navbar-brand" to="/">Home</Link>
-          {/* <a className="navbar-brand" th:href="@{/home}">Home</a> */}
         </div>
 
         <div className="collapse navbar-collapse" id="navbar-collapse">

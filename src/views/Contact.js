@@ -3,8 +3,6 @@ import Layout from './shared/components/Layout';
 
 const Contact = () => (
   <Layout>
-    <div th:replace="fragments/header :: navbar"></div>
-
     <div className="layout">
 
       <div className="page-header">
@@ -21,21 +19,21 @@ const Contact = () => (
 
         <h3>LinkedIn</h3>
         <i className="fab fa-linkedin"></i>
-        <a className="link-dark-yellow" th:href="@{https://linkedin.com/in/david-liao/}">
+        <a className="link-dark-yellow" href="https://linkedin.com/in/david-liao/">
           https://linkedin.com/in/david-liao/
-    </a>
+        </a>
 
         <h3>GitHub</h3>
         <i className="fab fa-github-square"></i>
-        <a className="link-dark-yellow" th:href="@{https://github.com/liaocanada}">
+        <a className="link-dark-yellow" href="https://github.com/liaocanada">
           https://github.com/liaocanada
-    </a>
+        </a>
 
         <h3>Youtube</h3>
         <i className="fab fa-youtube"></i>
-        <a className="link-dark-yellow" th:href="@{https://www.youtube.com/channel/UC2oFv0jOfzWRIbMToxAXmyw}">
+        <a className="link-dark-yellow" href="https://www.youtube.com/channel/UC2oFv0jOfzWRIbMToxAXmyw">
           https://www.youtube.com/channel/UC2oFv0jOfzWRIbMToxAXmyw
-    </a>
+        </a>
       </div>
 
     </div>

@@ -16,7 +16,7 @@ const Achievements = () => (
       <div className="row media-row">
         <div className="col-sm-3 h-center-children">
           <img className="media-image"
-            th:src="@{/static/images/achievements/aws-certified-solutions-architect-associate.png}"
+            src="/images/achievements/aws-certified-solutions-architect-associate.png"
             alt="AWS Solutions Architect Associate Logo"
           />
         </div>
@@ -35,7 +35,7 @@ const Achievements = () => (
       <div className="row media-row">
         <div className="col-sm-3 h-center-children">
           <img className="media-image"
-            th:src="@{/static/images/achievements/aws-certified-cloud-practitioner.png}"
+            src="/images/achievements/aws-certified-cloud-practitioner.png"
             alt="AWS Cloud Practitioner Logo"
           />
         </div>
@@ -54,7 +54,8 @@ const Achievements = () => (
       <div className="row media-row">
         <div className="col-sm-3 h-center-children">
           <img className="media-image-border"
-            th:src="@{/static/images/achievements/OCP.bmp}" alt="OCP Logo"
+            src="/images/achievements/OCP.bmp"
+            alt="OCP Logo"
           />
         </div>
         <div className="col-sm-9">
@@ -75,7 +76,7 @@ const Achievements = () => (
       <div className="row media-row">
         <div className="col-sm-3 h-center-children">
           <img className="media-image-border"
-            th:src="@{/static/images/achievements/OCA.bmp}"
+            src="/images/achievements/OCA.bmp"
             alt="OCA Logo"
           />
         </div>
@@ -95,7 +96,7 @@ const Achievements = () => (
       <div className="row media-row">
         <div className="col-sm-3 h-center-children">
           <img className="media-image-border"
-            th:src="@{/static/images/achievements/carleton.jpg}"
+            src="/images/achievements/carleton.jpg"
             alt="Carleton Picture"
           />
         </div>
