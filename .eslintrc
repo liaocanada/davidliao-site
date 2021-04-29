@@ -1,9 +1,10 @@
 {
-    "requireConfigFile": false,
-    "parser": "@babel/eslint-parser",
-    "babelOptions": {
-        "presets": [
-            "@babel/preset-react"
-        ]
-    }
+    // "requireConfigFile": false,
+    // "parser": "@babel/eslint-parser",
+    // "babelOptions": {
+    //     "presets": [
+    //         "@babel/preset-react"
+    //     ]
+    // }
+    "parser": "babel-eslint"
 }
