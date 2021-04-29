@@ -9,6 +9,20 @@ html, body {
 	overflow-x: hidden;
 }
 
+iframe {
+	position: fixed;
+    top: 62px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 999999;
+    height: calc(100% - 62px);
+}
+
 .layout {
 	padding: 5px 10%;
 }
