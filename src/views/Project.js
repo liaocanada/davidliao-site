@@ -15,7 +15,7 @@ const Project = ({ name, description, image, skills, url }) => {
           {/* TODO remove if possible */}
           <p dangerouslySetInnerHTML={{__html: description}} />
 
-          <p>
+          <p style={{wordBreak: "break-all"}}>
             {skills.map(skill => (
               <a href="#">
                 <span id="skill-tag" className={`label ${allSkillsData[skill].bootstrapClassName}`}>{skill}</span>
