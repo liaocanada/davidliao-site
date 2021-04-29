@@ -6,9 +6,7 @@ const Resume = () => (
     <Header />
     <div className="layers-container">
       <div className="front-layer">
-        <iframe
-          src="https://docs.google.com/gview?url=https://github.com/liaocanada/davidliao-site/raw/master/github-static/DavidLiao-Resume.pdf&embedded=true"
-          ></iframe>
+        <embed src="/DavidLiao-Resume.pdf#toolbar=0" />
       </div>
 
       <div className="back-layer alert alert-warning alert-dismissible" role="alert">
