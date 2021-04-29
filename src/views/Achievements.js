@@ -1,12 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Layout from './shared/components/Layout';
 
 const Achievements = () => (
   <Layout>
-    <div class="layout">
+    <div className="layout">
 
-      <div class="page-header">
+      <div className="page-header">
         <h1>
           Achievements <small>Awards, certifications, and education</small>
         </h1>
@@ -14,14 +13,14 @@ const Achievements = () => (
 
       <h3>Certifications</h3>
 
-      <div class="row media-row">
-        <div class="col-sm-3 h-center-children">
-          <img class="media-image"
+      <div className="row media-row">
+        <div className="col-sm-3 h-center-children">
+          <img className="media-image"
             th:src="@{/static/images/achievements/aws-certified-solutions-architect-associate.png}"
             alt="AWS Solutions Architect Associate Logo"
           />
         </div>
-        <div class="col-sm-9">
+        <div className="col-sm-9">
           <h4>AWS Certified Solutions Architect - Associate</h4>
     Proves knowledge of:
     <ul>
@@ -33,14 +32,14 @@ const Achievements = () => (
         </div>
       </div>
 
-      <div class="row media-row">
-        <div class="col-sm-3 h-center-children">
-          <img class="media-image"
+      <div className="row media-row">
+        <div className="col-sm-3 h-center-children">
+          <img className="media-image"
             th:src="@{/static/images/achievements/aws-certified-cloud-practitioner.png}"
             alt="AWS Cloud Practitioner Logo"
           />
         </div>
-        <div class="col-sm-9">
+        <div className="col-sm-9">
           <h4>AWS Certified Cloud Practitioner</h4>
     Proves knowledge of:
     <ul>
@@ -52,13 +51,13 @@ const Achievements = () => (
         </div>
       </div>
 
-      <div class="row media-row">
-        <div class="col-sm-3 h-center-children">
-          <img class="media-image-border"
+      <div className="row media-row">
+        <div className="col-sm-3 h-center-children">
+          <img className="media-image-border"
             th:src="@{/static/images/achievements/OCP.bmp}" alt="OCP Logo"
           />
         </div>
-        <div class="col-sm-9">
+        <div className="col-sm-9">
           <h4>OCP - Oracle Certified Professional</h4>
     Includes topics such as:
     <ul>
@@ -73,14 +72,14 @@ const Achievements = () => (
       </div>
 
 
-      <div class="row media-row">
-        <div class="col-sm-3 h-center-children">
-          <img class="media-image-border"
+      <div className="row media-row">
+        <div className="col-sm-3 h-center-children">
+          <img className="media-image-border"
             th:src="@{/static/images/achievements/OCA.bmp}"
             alt="OCA Logo"
           />
         </div>
-        <div class="col-sm-9">
+        <div className="col-sm-9">
           <h4>OCA - Oracle Certified Associate</h4>
     Includes topics such as:
     <ul>
@@ -93,14 +92,14 @@ const Achievements = () => (
       </div>
 
       <h3>Education</h3>
-      <div class="row media-row">
-        <div class="col-sm-3 h-center-children">
-          <img class="media-image-border"
+      <div className="row media-row">
+        <div className="col-sm-3 h-center-children">
+          <img className="media-image-border"
             th:src="@{/static/images/achievements/carleton.jpg}"
             alt="Carleton Picture"
           />
         </div>
-        <div class="col-sm-9">
+        <div className="col-sm-9">
           <h4>Bachelor's degree in Computer Science, Carleton University (currently enrolled)</h4>
           <ul>
             <li>GPA: 11.9, Major GPA: 12.0 (out of 12.0)</li>

@@ -1,28 +1,24 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Layout from './shared/components/Layout';
 
 const Projects = () => (
   <Layout>
-    <div th:replace="fragments/header :: navbar"></div>
+    <div className="layout">
 
-    <div class="layout">
-
-      <div class="page-header">
+      <div className="page-header">
         <h1>
           Projects <small>A listing of my completed and WIP projects</small>
         </h1>
       </div>
 
-
       <h3>Personal Projects</h3>
-      <div id="projects-row" class="row">
+      <div id="projects-row" className="row">
         <th:block th:each="project, iStat: ${ personalProjects }">
-          <div class="col-md-4 thumbnail-wrapper">
+          <div className="col-md-4 thumbnail-wrapper">
 
-            <div class="thumbnail">
+            <div className="thumbnail">
               <img th:src="${ project.image }" alt="Project Image">
-                <div class="caption">
+                <div className="caption">
                   <a th:href="@{ ${ project.url }}">
                     <h3 th:text="${ project.name }">
                       Project title goes here
@@ -33,7 +29,7 @@ const Projects = () => (
                     <th:block th:each="skill: ${ project.skills }">
                       <a href="#">
                         <span id="skill-tag"
-                          class="label"
+                          className="label"
                           th:classappend="${ skill.bsTagClass }"
                           th:text="${ skill.name }">
                         </span>
@@ -45,18 +41,18 @@ const Projects = () => (
 
             </div>
 
-            <div th:if="${iStat.index % 3 == 2}" class="clearfix visible-md-block"></div>
+            <div th:if="${iStat.index % 3 == 2}" className="clearfix visible-md-block"></div>
     </th:block>
   </div>
 
         <h3>Work Projects</h3>
-        <div id="projects-row" class="row">
+        <div id="projects-row" className="row">
           <th:block th:each="project, iStat: ${ workProjects }">
-            <div class="col-md-4 thumbnail-wrapper">
+            <div className="col-md-4 thumbnail-wrapper">
 
-              <div class="thumbnail">
+              <div className="thumbnail">
                 <img th:src="${ project.image }" alt="Project Image">
-                  <div class="caption">
+                  <div className="caption">
                     <a th:href="@{ ${ project.url }}">
                       <h3 th:text="${ project.name }">
                         Project title goes here
@@ -67,7 +63,7 @@ const Projects = () => (
                       <th:block th:each="skill: ${ project.skills }">
                         <a href="#">
                           <span id="skill-tag"
-                            class="label"
+                            className="label"
                             th:classappend="${ skill.bsTagClass }"
                             th:text="${ skill.name }">
                           </span>
@@ -79,17 +75,16 @@ const Projects = () => (
 
               </div>
 
-              <div th:if="${iStat.index % 3 == 2}" class="clearfix visible-md-block"></div>
+              <div th:if="${iStat.index % 3 == 2}" className="clearfix visible-md-block"></div>
     </th:block>
   </div>
 
-          <div class="page-header">
+          <div className="page-header">
             <h3>Software of interest</h3>
-            <p class="subtext">Some technologies that I am currently learning, or wanting to explore:</p>
+            <p className="subtext">Some technologies that I am currently learning, or wanting to explore:</p>
           </div>
-          <div class="well">
-            <!-- TODO move this to github-static too -->
-    <ul>
+          <div className="well">
+            <ul>
               <li><b>Amazon Web Services</b>: Going for Solutions Architect Associate this summer!</li>
               <li>Docker/Kubernetes</li>
               <li>Jenkins</li>
