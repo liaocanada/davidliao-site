@@ -1,5 +1,5 @@
 {
-  "name": "react-test",
+  "name": "davidliao-site",
   "version": "0.1.0",
   "dependencies": {
     "react": "^17.0.2",
@@ -16,6 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "aws s3 sync build/ s3://davidliao.ca --cache-control=\"max-age=60\" && aws cloudfront create-invalidation --distribution-id E1FEIDENZLS27S --paths \"/*\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
