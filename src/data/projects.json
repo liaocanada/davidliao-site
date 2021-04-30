@@ -1,7 +1,7 @@
 [
     {
         "name": "Featured Listings App",
-        "description": "A scalable multi-page React web app that allows specific types of business owners to present their featured products to customers. Built for <a class=\"link-dark-yellow\" href=\"https://www.gradea.ca/\">Grade A Labs</a>.",
+        "description": "A scalable multi-page React web app that allows specific types of business owners to present their featured products to customers. Built for [Grade A Labs](https://www.gradea.ca/).",
         "image": "/images/projects/featured.jpg",
         "type": "work",
         "category": "web",
@@ -10,7 +10,7 @@
     },
     {
         "name": "Human Resources Management System",
-        "description": "A system that manages employees and their personal information. Users that exist in the database are able to log in. Basic CRUD functions can be performed on either the users themselves (non-admins) or other users (admins) through the web system. Built for <a class=\"link-dark-yellow\" href=\"https://www.inbaytech.com\">inBay Technologies</a>.",
+        "description": "A system that manages employees and their personal information. Users that exist in the database are able to log in. Basic CRUD functions can be performed on either the users themselves (non-admins) or other users (admins) through the web system. Built for [inBay Technologies](https://www.inbaytech.com).",
         "image": "/images/projects/hrms.jpg",
         "type": "work",
         "category": "web",
@@ -37,7 +37,7 @@
     },
     {
         "name": "Online Bookstore",
-        "description": "A static serverless e-commerce bookstore, which sells books and other accessories. It has pie charts displaying key performance indicators like sales by product, sales by author, revenue breakdown (profit, publisher commission, expenditures, delivery fee). Currently it doesn't work 100% when deployed since there are some restrictions to dynamic routing (/orders/[id]) on a static website. The app is deployed serverlessly across various services on AWS.",
+        "description": "A static serverless e-commerce bookstore, which sells books and other accessories. It has pie charts displaying key performance indicators like sales by product, sales by author, revenue breakdown (profit, publisher commission, expenditures, delivery fee).",
         "image": "/images/projects/bookstore.jpg",
         "type": "personal",
         "category": "web",

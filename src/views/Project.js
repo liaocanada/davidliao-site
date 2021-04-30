@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
 
 import allSkillsData from '../data/skills.json';
 
@@ -12,8 +13,7 @@ const Project = ({ name, description, image, skills, url }) => {
         <div className="caption">
           <a href={url}><h3>{name}</h3></a>
 
-          {/* TODO remove if possible */}
-          <p dangerouslySetInnerHTML={{__html: description}} />
+          <ReactMarkdown>{description}</ReactMarkdown>
 
           <p style={{wordBreak: "break-all"}}>
             {skills.map(skill => (
