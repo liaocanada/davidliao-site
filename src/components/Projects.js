@@ -1,11 +1,11 @@
 import React from 'react';
 import Layout from './shared/Layout';
+import Tabs from './shared/Tabs';
 import Project from './Project';
 import groupBy from '../helpers/groupBy';
 import insertEveryN from '../helpers/insertEveryN';
 
 import projects from '../data/projects.json';
-import Tabs from './shared/Tabs';
 
 const Projects = () => {
   const { work: workProjects, personal: personalProjects } = groupBy(projects, "type");
@@ -41,10 +41,8 @@ const Projects = () => {
         </div>
 
         <>
-          <div className="page-header">
-            <h3>Software of interest</h3>
-            <p className="subtext">Some technologies that I am currently learning, or wanting to explore:</p>
-          </div>
+          <h3>Software of interest</h3>
+          <p className="subtext">Some technologies that I am currently learning, or wanting to explore:</p>
           <div className="well">
             <ul>
               <li><b>Amazon Web Services</b></li>

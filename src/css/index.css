@@ -23,6 +23,20 @@ iframe, embed {
     height: calc(100% - 62px);
 }
 
+.nav-tabs > li > a {
+	/* font-weight: 700 !important; */
+	margin-right: 5px !important;
+}
+
+.nav-tabs > li:not(.active) > a {
+	background-color: rgb(247, 247, 247) !important;
+	border: 1px solid #ddd !important;
+}
+
+.nav-tabs > li.active > a {
+	border: 1px solid rgb(97, 97, 97) !important;
+}
+
 .layout {
 	padding: 5px 10%;
 }

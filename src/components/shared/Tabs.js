@@ -10,7 +10,7 @@ const Tabs = ({ titles, children }) => {
 
   return (
     <>
-      <ul className="nav nav-tabs" role="tablist">
+      <ul className="nav nav-tabs" role="tablist" style={{marginBottom: "5px"}}>
         {titles.map((tabTitle, tabIndex) => (
           <li key={tabTitle}
             className={activeTabIndex === tabIndex ? "active" : ""}
