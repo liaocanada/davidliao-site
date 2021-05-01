@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Layout from './shared/Layout';
 
 const Home = () => (
-  <Layout>
+  <Layout noPadding>
     <div id="banner">
       <img id="banner-image" src="/images/home.jpg"
         alt="A background photo of a building and waterfall in Carleton Place, ON"

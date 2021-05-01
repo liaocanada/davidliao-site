@@ -2,12 +2,10 @@ import React from 'react';
 import Footer from './Footer';
 import Header from './Header';
 
-const Layout = ({ children }) => (
+const Layout = ({ noPadding, children }) => (
   <>
     <Header />
-
-    {children}
-
+    {noPadding ? children : <div className="layout">{children}</div>}
     <Footer />
   </>
 );
