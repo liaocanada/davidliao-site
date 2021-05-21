@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import TextBox from './shared/components/TextBox';
 import Layout from './shared/Layout';
 
 const Home = () => (
@@ -24,88 +25,77 @@ const Home = () => (
     </div>
 
     <div id="home-textbox-container" className="row row-eq-height">
+      <TextBox title="Background"
+        contents={
+          <>
+            <h4 className="subheader">Certifications</h4>
+            <ul>
+              <li><b>AWS</b> Certified Solutions Architect - Associate (2020)</li>
+              <li><b>AWS</b> Certified Cloud Practitioner (2019)</li>
+              <li><b>OCP</b> - Oracle Certified Professional Java SE 8 Programmer (2019)</li>
+              <li><b>OCA</b> - Oracle Certified Associate Java SE 8 Programmer (2017)</li>
+            </ul>
 
-      <div id="home-textbox" className="col-sm-6">
-        <table className="table">
-          <tbody>
-            <tr><th><h3>BACKGROUND</h3></th></tr>
-            <tr><td>
-              <h4 className="subheader">Certifications</h4>
+            <h4 className="subheader">Education</h4>
+            <ul>
+              <li>Carleton University, Bachelor of Computer Science
               <ul>
-                <li><b>AWS</b> Certified Solutions Architect - Associate (2020)</li>
-                <li><b>AWS</b> Certified Cloud Practitioner (2019)</li>
-                <li><b>OCP</b> - Oracle Certified Professional Java SE 8 Programmer (2019)</li>
-                <li><b>OCA</b> - Oracle Certified Associate Java SE 8 Programmer (2017)</li>
+                  <li>11.9 GPA, 12.0 Major GPA</li>
+                  <li>4th Year Standing</li>
+                  <li>Computer and Internet Security Stream</li>
+                </ul>
+              </li>
+            </ul>
 
-              </ul>
+            <h4 className="subheader">Involvement</h4>
+            <ul>
+              <li>AWS Educate Student Ambassador</li>
+              <li>Mentor at the Science Student Success Center</li>
+              <li>Teaching Assistant</li>
+            </ul>
+          </>
+        }
+        button={
+          <Link id="btn-home" className="btn btn-primary btn-block" to="/achievements" role="button">
+            More Info
+          </Link>
+        } />
 
-              <h4 className="subheader">Involvement</h4>
-              <ul>
-                <li>AWS Educate Student Ambassador</li>
-                <li>Mentor at the Science Student Success Center</li>
-                <li>Teaching Assistant</li>
-              </ul>
+      <TextBox title="Projects"
+        contents={
+          <>
+            <h4 className="subheader">Web Apps (personal)</h4>
+            <ul>
+              <li>Personal Website (this site)</li>
+              <li>E-Bookstore</li>
+              <li>
+                CareerCounsel: Generates statistics based on
+                real-time job listings
+						    </li>
+            </ul>
 
-              <h4 className="subheader">Education</h4>
-              <ul>
-                <li>Carleton University, Bachelor of Computer Science
-							<ul>
-                    <li>11.9 GPA, 12.0 Major GPA</li>
-                    <li>Computer and Internet Security Stream</li>
-                  </ul>
-                </li>
-              </ul>
-            </td></tr>
-            <tr><td id="button-cell">
-              <Link id="btn-home" className="btn btn-primary btn-block"
-                to="/achievements" role="button"> More Info
-					</Link>
-            </td></tr>
-          </tbody>
-        </table>
-      </div>
+            <h4 className="subheader">Web Apps (work)</h4>
+            <ul>
+              <li>Human Resources Management System</li>
+              <li>Featured Listings App</li>
+            </ul>
 
-      <div id="home-textbox" className="col-sm-6">
-        <table className="table">
-          <tbody>
-
-            <tr><th><h3>PROJECTS</h3></th></tr>
-            <tr><td>
-              <h4 className="subheader">Web Apps (personal)</h4>
-              <ul>
-                <li>Personal Website (this site)</li>
-                <li>E-Bookstore</li>
-                <li>
-                  CareerCounsel: Generates statistics based on
-                  real-time job listings
-						</li>
-              </ul>
-
-              <h4 className="subheader">Web Apps (work)</h4>
-              <ul>
-                <li>Human Resources Management System</li>
-                <li>Featured Listings App</li>
-              </ul>
-
-              <h4 className="subheader">Other Projects</h4>
-              <ul>
-                <li>
-                  Flamingo travel planner: Suggests an itinerary based on
-                  users' budgets
-						</li>
-                <li>Various Android, iOS apps</li>
-                <li>Various Arduino projects</li>
-              </ul>
-
-            </td></tr>
-            <tr><td id="button-cell">
-              <Link id="btn-home" className="btn btn-primary btn-block"
-                to="/projects" role="button"> More Info
-					</Link>
-            </td></tr>
-          </tbody>
-        </table>
-      </div>
+            <h4 className="subheader">Other Projects</h4>
+            <ul>
+              <li>
+                Flamingo travel planner: Suggests an itinerary based on
+                users' budgets
+						    </li>
+              <li>Various Android, iOS apps</li>
+              <li>Various Arduino projects</li>
+            </ul>
+          </>
+        }
+        button={
+          <Link id="btn-home" className="btn btn-primary btn-block" to="/projects" role="button">
+            More Info
+          </Link>
+        } />
     </div>
   </Layout>
 );
