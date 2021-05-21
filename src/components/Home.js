@@ -28,8 +28,8 @@ const Home = () => (
             <ul>
               <li><b>AWS</b> Certified Solutions Architect - Associate (2020)</li>
               <li><b>AWS</b> Certified Cloud Practitioner (2019)</li>
-              <li><b>OCP</b> - Oracle Certified Professional Java SE 8 Programmer (2019)</li>
-              <li><b>OCA</b> - Oracle Certified Associate Java SE 8 Programmer (2017)</li>
+              <li><b>Java 8</b> Oracle Certified Professional (2019)</li>
+              <li><b>Java 8</b> Oracle Certified Associate (2017)</li>
             </ul>
 
             <h4 className="subheader">Education</h4>
@@ -60,28 +60,35 @@ const Home = () => (
       <TextBox title="Projects"
         contents={
           <>
-            <h4 className="subheader">Web Apps (personal)</h4>
+            <h4 className="subheader">Work Projects</h4>
             <ul>
-              <li>Personal Website (this site)</li>
-              <li>E-Bookstore</li>
-              <li>
-                CareerCounsel: Generates statistics based on
-                real-time job listings
-						    </li>
+              <li><b>Qlik -</b> Development of a custom load balancing service</li>
+              <li><b>Coveo -</b> Scaling and cost management of an ECS cluster</li>
+              <li><b>NewPush -</b> REST APIs, Identity and Access Management analysis</li>
+              <li><b>LaunchFort -</b> App for displaying specials at nearby bars</li>
+              <li><b>New Portal Corp -</b> An employee management system</li>
             </ul>
 
-            <h4 className="subheader">Web Apps (work)</h4>
+            <h4 className="subheader">Web Apps - Personal</h4>
             <ul>
-              <li>Human Resources Management System</li>
-              <li>Featured Listings App</li>
+              <li>Personal Website (this site!)</li>
+              <li>
+                Online Bookstore&nbsp;&nbsp;
+                <a className="link-yellow" href="https://ebookstore.davidliao.ca/">
+                  <FontAwesomeIcon icon="external-link-alt" />
+                </a>
+              </li>
+              <li>
+                CareerCounsel&nbsp;&nbsp;
+                <a className="link-yellow" href="https://app.davidliao.ca">
+                  <FontAwesomeIcon icon="external-link-alt" />
+                </a>
+              </li>
             </ul>
 
             <h4 className="subheader">Other Projects</h4>
             <ul>
-              <li>
-                Flamingo travel planner: Suggests an itinerary based on
-                users' budgets
-						    </li>
+              <li>Various desktop apps</li>
               <li>Various Android, iOS apps</li>
               <li>Various Arduino projects</li>
             </ul>
