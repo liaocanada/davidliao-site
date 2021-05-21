@@ -4,6 +4,9 @@ import {
   Route,
   useLocation,
 } from 'react-router-dom';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faArrowRight, faAt, faMobileAlt } from '@fortawesome/free-solid-svg-icons';
 import capitalize from '../helpers/capitalize';
 
 // Pages
@@ -14,19 +17,18 @@ import Contact from './Contact';
 import Projects from './Projects';
 import Resume from './Resume';
 
-const updatePageTitle = pageName =>
-  document.title = !!pageName ? `${capitalize(pageName)} | David Liao` : "David Liao";
-
-const updateHitCount = pageName => {
-  // TODO
-};
+// Adding fonts to library allows them to be used as strings from the FontAwesomeIcon component
+// https://fontawesome.com/how-to-use/on-the-web/using-with/react
+library.add(fab, faArrowRight, faAt, faMobileAlt);
 
 const App = () => {
   const location = useLocation();
   const page = location.pathname.split("/")[1];
+  const updatePageTitle = pageName =>
+    document.title = !!pageName ? `${capitalize(pageName)} | David Liao` : "David Liao";
+
   useEffect(() => {
     updatePageTitle(page);
-    updateHitCount(page);
   }, [page]);
 
   return (
