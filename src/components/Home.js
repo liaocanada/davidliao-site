@@ -74,13 +74,13 @@ const Home = () => (
               <li>Personal Website (this site!)</li>
               <li>
                 Online Bookstore&nbsp;&nbsp;
-                <a className="link-yellow" href="https://ebookstore.davidliao.ca/">
+                <a className="link-yellow" href="https://ebookstore.davidliao.ca/" target="_blank">
                   <FontAwesomeIcon icon="external-link-alt" />
                 </a>
               </li>
               <li>
                 CareerCounsel&nbsp;&nbsp;
-                <a className="link-yellow" href="https://app.davidliao.ca">
+                <a className="link-yellow" href="https://app.davidliao.ca" target="_blank">
                   <FontAwesomeIcon icon="external-link-alt" />
                 </a>
               </li>

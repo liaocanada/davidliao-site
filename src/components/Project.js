@@ -12,7 +12,7 @@ const Project = ({ name, description, image, skills, url, companyName, companyUr
 
         <div className="caption">
           {url ?
-            <h3><a href={url}>
+            <h3><a href={url} target="_blank">
               {name}
               {url && <>&nbsp;&nbsp;<FontAwesomeIcon icon="external-link-alt" size="xs" /></>}
             </a></h3> :
