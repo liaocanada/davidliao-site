@@ -2,7 +2,7 @@
     {
         "name": "Session Load Balancing",
         "description": "Worked on a microservice that managed the placement of incoming sessions onto a Kubernetes deployment of stateful pods.",
-        "image": "/images/projects/placeholder.jpg",
+        "image": "/images/projects/companies/qlik.png",
         "type": "work",
         "category": "web",
         "url": null,
@@ -18,7 +18,7 @@
     {
         "name": "Cluster Management",
         "description": "Managed an ECS cluster of Windows 2019 instances: transitioned them to use spot instances (rather than on-demand); enforced custom scaling criteria using a Java microservice; improved launch times by rebuilding a Golden AMI; and monitored their health and performance.",
-        "image": "/images/projects/placeholder.jpg",
+        "image": "/images/projects/companies/coveo.png",
         "type": "work",
         "category": "web",
         "url": null,
@@ -40,7 +40,7 @@
     {
         "name": "API Development",
         "description": "Developed a set of 12 APIs used by clients to analyze access control. Additionally, provided live documentation and significant improvements to performance.",
-        "image": "/images/projects/placeholder.jpg",
+        "image": "/images/projects/companies/newpush.png",
         "type": "work",
         "category": "web",
         "url": null,
