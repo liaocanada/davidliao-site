@@ -9,6 +9,16 @@
 		"bootstrapClassName": "label-warning",
 		"category": "programming language"
 	},
+	"TypeScript": {
+		"colour": "blue",
+		"bootstrapClassName": "label-primary",
+		"category": "programming language"
+	},
+	"Go": {
+		"colour": "light blue",
+		"bootstrapClassName": "label-info",
+		"category": "programming language"
+	},
 	"Swift": {
 		"colour": "red",
 		"bootstrapClassName": "label-danger",
@@ -40,8 +50,8 @@
 		"category": "backend"
 	},
 	"AWS API Gateway": {
-		"colour": "orange",
-		"bootstrapClassName": "label-warning",
+		"colour": "grey",
+		"bootstrapClassName": "label-default",
 		"category": "backend"
 	},
 	"JavaFX": {
@@ -53,6 +63,46 @@
 		"colour": "green",
 		"bootstrapClassName": "label-success",
 		"category": "mobile"
+	},
+	"Docker": {
+		"colour": "blue",
+		"bootstrapClassName": "label-primary",
+		"category": "infrastructure"
+	},
+	"Kubernetes": {
+		"colour": "blue",
+		"bootstrapClassName": "label-primary",
+		"category": "infrastructure"
+	},
+	"Jenkins": {
+		"colour": "red",
+		"bootstrapClassName": "label-danger",
+		"category": "infrastructure"
+	},
+	"Terraform": {
+		"colour": "blue",
+		"bootstrapClassName": "label-primary",
+		"category": "infrastructure"
+	},
+	"Ansible": {
+		"colour": "grey",
+		"bootstrapClassName": "label-default",
+		"category": "infrastructure"
+	},
+	"AWS EC2 AutoScaling": {
+		"colour": "grey",
+		"bootstrapClassName": "label-default",
+		"category": "infrastructure"
+	},
+	"AWS CloudWatch": {
+		"colour": "green",
+		"bootstrapClassName": "label-success",
+		"category": "infrastructure"
+	},
+	"Grafana": {
+		"colour": "orange",
+		"bootstrapClassName": "label-warning",
+		"category": "infrastructure"
 	},
 	"Google Cloud": {
 		"colour": "green",
@@ -125,8 +175,8 @@
 		"category": "server"
 	},
 	"CI/CD": {
-		"colour": "green",
-		"bootstrapClassName": "label-success",
+		"colour": "grey",
+		"bootstrapClassName": "label-default",
 		"category": "process"
 	},
 	"Webscraping": {

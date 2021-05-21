@@ -1,5 +1,60 @@
 [
     {
+        "name": "Session Load Balancing",
+        "description": "Worked on a microservice that managed the placement of incoming sessions onto a Kubernetes deployment of stateful pods.",
+        "image": "/images/projects/placeholder.jpg",
+        "type": "work",
+        "category": "web",
+        "url": null,
+        "skills": [
+            "Go",
+            "MongoDB",
+            "Kubernetes",
+            "Grafana"
+        ],
+        "companyName": "Qlik",
+        "companyUrl": "https://www.qlik.com/us/"
+    },
+    {
+        "name": "Cluster Management",
+        "description": "Managed an ECS cluster of Windows 2019 instances: transitioned them to use spot instances (rather than on-demand); enforced custom scaling criteria using a Java microservice; improved launch times by rebuilding a Golden AMI; and monitored their health and performance.",
+        "image": "/images/projects/placeholder.jpg",
+        "type": "work",
+        "category": "web",
+        "url": null,
+        "skills": [
+            "Terraform",
+            "AWS",
+            "AWS EC2 AutoScaling",
+            "AWS CloudWatch",
+            "Java 8",
+            "MySQL",
+            "Grafana",
+            "Jenkins",
+            "CI/CD",
+            "Go"
+        ],
+        "companyName": "Coveo",
+        "companyUrl": "https://www.coveo.com/en"
+    },
+    {
+        "name": "API Development",
+        "description": "Developed a set of 12 APIs used by clients to analyze access control. Additionally, provided live documentation and significant improvements to performance.",
+        "image": "/images/projects/placeholder.jpg",
+        "type": "work",
+        "category": "web",
+        "url": null,
+        "skills": [
+            "JavaScript",
+            "TypeScript",
+            "Node.js",
+            "MongoDB",
+            "Docker"
+        ],
+        "companyName": "NewPush",
+        "companyUrl": "https://www.newpush.com/"
+    },
+    {
         "name": "Featured",
         "description": "A responsive React web app that allows local bar and restaurant owners to present their featured specials to customers.",
         "image": "/images/projects/featured.jpg",
@@ -69,6 +124,8 @@
             "Spring MVC",
             "JSP",
             "AWS",
+            "Terraform",
+            "Ansible",
             "HTML5",
             "CSS",
             "Bootstrap",
