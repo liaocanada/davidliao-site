@@ -1,4 +1,5 @@
 import React from 'react';
+import Spacer from './shared/components/Spacer';
 import Layout from './shared/Layout';
 
 const About = () => (
@@ -77,7 +78,7 @@ const About = () => (
   </p>
     </div>
 
-    <div style={{ "height": "100px" }}></div>
+    <Spacer height="100px" />
   </Layout>
 );
 

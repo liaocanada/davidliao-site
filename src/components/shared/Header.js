@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Spacer from './components/Spacer';
 
+// TODO fix collapsible -- Bootstrap JS incompatible with React
 const Header = () => (
   <>
     <nav className="navbar">
@@ -32,7 +34,7 @@ const Header = () => (
         </div>
       </div>
     </nav>
-    <div style={{marginTop: "62px"}}></div>
+    <Spacer height="62px" />
   </>
 );
 

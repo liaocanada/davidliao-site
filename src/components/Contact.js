@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Layout from './shared/Layout';
+import Spacer from './shared/components/Spacer';
 
 const Contact = () => (
   <Layout>
@@ -34,7 +35,7 @@ const Contact = () => (
         </a>
     </div>
 
-    <div style={{ "height": "100px" }}></div>
+    <Spacer height="100px" />
   </Layout>
 );
 
