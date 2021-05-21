@@ -1,21 +1,41 @@
 [
     {
         "name": "Featured Listings App",
-        "description": "A scalable multi-page React web app that allows specific types of business owners to present their featured products to customers. Built for [Grade A Labs](https://www.gradea.ca/).",
+        "description": "A responsive React web app that allows local bar and restaurant owners to present their featured specials to customers.",
         "image": "/images/projects/featured.jpg",
         "type": "work",
         "category": "web",
         "url": null,
-        "skills": ["JavaScript", "React.js", "Meteor.js", "React-Semantic UI", "CSS", "MongoDB"]
+        "skills": [
+            "JavaScript",
+            "React.js",
+            "Meteor.js",
+            "React-Semantic UI",
+            "CSS",
+            "MongoDB"
+        ],
+        "companyName": "LaunchFort",
+        "companyUrl": "https://launchfort.com/"
     },
     {
         "name": "Human Resources Management System",
-        "description": "A system that manages employees and their personal information. Users that exist in the database are able to log in. Basic CRUD functions can be performed on either the users themselves (non-admins) or other users (admins) through the web system. Built for [inBay Technologies](https://www.inbaytech.com).",
+        "description": "A system that manages employees and their personal information. Users that exist in the database are able to log in. Basic CRUD functions can be performed on either the users themselves (non-admins) or other users (admins) through the web system.",
         "image": "/images/projects/hrms.jpg",
         "type": "work",
         "category": "web",
         "url": null,
-        "skills": ["Java 8", "Spring MVC", "JSP", "HTML5", "CSS", "Bootstrap", "Tomcat", "MySQL"]
+        "skills": [
+            "Java 8",
+            "Spring MVC",
+            "JSP",
+            "HTML5",
+            "CSS",
+            "Bootstrap",
+            "Tomcat",
+            "MySQL"
+        ],
+        "companyName": "inBay Technologies",
+        "companyUrl": "https://www.inbaytech.com"
     },
     {
         "name": "Company Website",
@@ -24,7 +44,17 @@
         "type": "work",
         "category": "web",
         "url": null,
-        "skills": ["Java 8", "Spring MVC", "JSP", "Google Cloud", "HTML5", "CSS", "Bootstrap", "Tomcat"]
+        "skills": [
+            "Java 8",
+            "Spring MVC",
+            "JSP",
+            "Google Cloud",
+            "HTML5",
+            "CSS",
+            "Bootstrap",
+            "Tomcat"
+        ],
+        "companyName": "New Portal Corp"
     },
     {
         "name": "Personal Website",
@@ -33,7 +63,16 @@
         "type": "personal",
         "category": "web",
         "url": "https://www.davidliao.ca/",
-        "skills": ["Java 8", "Spring MVC", "JSP", "AWS", "HTML5", "CSS", "Bootstrap", "Tomcat"]
+        "skills": [
+            "Java 8",
+            "Spring MVC",
+            "JSP",
+            "AWS",
+            "HTML5",
+            "CSS",
+            "Bootstrap",
+            "Tomcat"
+        ]
     },
     {
         "name": "Online Bookstore",
@@ -41,8 +80,16 @@
         "image": "/images/projects/bookstore.jpg",
         "type": "personal",
         "category": "web",
-        "url": "http://ebookstore.davidliao.ca/",
-        "skills": ["AWS", "AWS API Gateway", "React.js", "Next.js", "React-Bootstrap", "PostgreSQL", "CSS"]
+        "url": "https://ebookstore.davidliao.ca/",
+        "skills": [
+            "AWS",
+            "AWS API Gateway",
+            "React.js",
+            "Next.js",
+            "React-Bootstrap",
+            "PostgreSQL",
+            "CSS"
+        ]
     },
     {
         "name": "FlaminGo Travel Planner",
@@ -51,7 +98,11 @@
         "type": "personal",
         "category": "desktop",
         "url": null,
-        "skills": ["Java 8", "JavaFX", "Google Cloud"]
+        "skills": [
+            "Java 8",
+            "JavaFX",
+            "Google Cloud"
+        ]
     },
     {
         "name": "CareerCounsel",
@@ -60,7 +111,13 @@
         "type": "personal",
         "category": "desktop app",
         "url": "https://app.davidliao.ca",
-        "skills": ["React.js", "Node.js", "AWS", "CI/CD", "Webscraping"]
+        "skills": [
+            "React.js",
+            "Node.js",
+            "AWS",
+            "CI/CD",
+            "Webscraping"
+        ]
     },
     {
         "name": "Projectile Motion Simulator",
@@ -69,7 +126,9 @@
         "type": "personal",
         "category": "mobile",
         "url": "https://www.youtube.com/watch?v=gTxDxMnFef8",
-        "skills": ["Swift"]
+        "skills": [
+            "Swift"
+        ]
     },
     {
         "name": "Maze Solver",
@@ -78,7 +137,9 @@
         "type": "personal",
         "category": "mobile",
         "url": "https://www.youtube.com/watch?v=0ovdYHBHpPA",
-        "skills": ["Android"]
+        "skills": [
+            "Android"
+        ]
     },
     {
         "name": "Arduino Hangman Game",
@@ -87,7 +148,9 @@
         "type": "personal",
         "category": "arduino",
         "url": "https://www.youtube.com/watch?v=Akjvt6dXj7s",
-        "skills": ["Arduino"]
+        "skills": [
+            "Arduino"
+        ]
     },
     {
         "name": "Arduino Karaoke Machine",
@@ -96,6 +159,8 @@
         "type": "personal",
         "category": "arduino",
         "url": "https://www.youtube.com/watch?v=DeEAKgeGLb4",
-        "skills": ["Arduino"]
+        "skills": [
+            "Arduino"
+        ]
     }
 ]
