@@ -1,28 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import BannerImageOverlay from './shared/components/BannerImageOverlay';
 import TextBox from './shared/components/TextBox';
 import Layout from './shared/Layout';
 
 const Home = () => (
   <Layout noPadding>
-    <div id="banner">
-      <img id="banner-image" src="/images/home.jpg"
-        alt="A background photo of a building and waterfall in Carleton Place, ON"
-      />
-      <div id="banner-cover">
-        <div id="banner-cover-contents">
-          <h1>DAVID LIAO</h1>
-          <h4>AWS Certified Solutions Architect</h4>
-          <Link className="btn btn-primary btn-block" to="/resume" role="button">
-            View Resume &ensp;
-					<i className="fas fa-arrow-right"></i>
-          </Link>
-        </div>
-      </div>
-      <div id="banner-image-description" className="bottom-right">
-        Landscape of Town Hall behind Mississippi River in Carleton Place, ON.
-		</div>
-    </div>
+    <BannerImageOverlay image={{
+        src: "/images/home.jpg",
+        alt: "A background photo of a building and waterfall in Carleton Place, ON"
+      }}
+      overlay={<>
+        <h1>DAVID LIAO</h1>
+        <h4>AWS Certified Solutions Architect</h4>
+        <Link className="btn btn-primary btn-block" to="/resume" role="button">
+          View Resume &ensp; <i className="fas fa-arrow-right"></i>
+        </Link>
+      </>}
+      caption="Landscape of Town Hall behind Mississippi River in Carleton Place, ON." />
 
     <div id="home-textbox-container" className="row row-eq-height">
       <TextBox title="Background"
