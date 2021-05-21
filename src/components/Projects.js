@@ -6,6 +6,7 @@ import groupBy from '../helpers/groupBy';
 import insertEveryN from '../helpers/insertEveryN';
 
 import projects from '../data/projects.json';
+import Spacer from './shared/components/Spacer';
 
 const flexBoxWrapStyle = {
   display: "flex",
@@ -60,6 +61,7 @@ const Projects = () => {
               <li>Go</li>
             </ul>
           </div>
+          <Spacer height="100px" />
         </>
       </Tabs>
     </Layout>
