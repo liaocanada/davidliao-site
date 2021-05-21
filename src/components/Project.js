@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import ReactMarkdown from 'react-markdown';
 
 import allSkillsData from '../data/skills.json';
 
@@ -27,7 +26,7 @@ const Project = ({ name, description, image, skills, url, companyName, companyUr
               <h5><i>{companyName}</i></h5>
           }
 
-          <ReactMarkdown>{description}</ReactMarkdown>
+          {description}
 
           <p style={{ wordBreak: "break-all" }}>
             {skills.map(skill => (
