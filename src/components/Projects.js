@@ -7,6 +7,11 @@ import insertEveryN from '../helpers/insertEveryN';
 
 import projects from '../data/projects.json';
 
+const flexBoxWrapStyle = {
+  display: "flex",
+  flexWrap: "wrap",
+}
+
 const Projects = () => {
   const { work: workProjects, personal: personalProjects } = groupBy(projects, "type");
 
@@ -30,7 +35,7 @@ const Projects = () => {
           )}
         </div>
 
-        <div id="projects-row" className="row">
+        <div id="projects-row" className="row" style={flexBoxWrapStyle}>
           {insertEveryN(
             workProjects.map(project => <Project {...project} />),
             <div className="clearfix visible-md-block" />,
