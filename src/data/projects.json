@@ -1,6 +1,6 @@
 [
     {
-        "name": "Featured Listings App",
+        "name": "Featured",
         "description": "A responsive React web app that allows local bar and restaurant owners to present their featured specials to customers.",
         "image": "/images/projects/featured.jpg",
         "type": "work",
@@ -19,7 +19,7 @@
     },
     {
         "name": "Human Resources Management System",
-        "description": "A system that manages employees and their personal information. Users that exist in the database are able to log in. Basic CRUD functions can be performed on either the users themselves (non-admins) or other users (admins) through the web system.",
+        "description": "A system that manages employees' personal information. Users can login to view and update their own profile info. Administrators with higher access rights can view and edit all users' profiles, as well as create new users or delete existing ones.",
         "image": "/images/projects/hrms.jpg",
         "type": "work",
         "category": "web",
@@ -58,12 +58,13 @@
     },
     {
         "name": "Personal Website",
-        "description": "My personal website that you are viewing right now! This site was built using Spring MVC and hosted on a VM on AWS.",
+        "description": "My personal website that you are viewing right now! As you've probably seen, it contains some info about my ventures in software. Originally built using Spring and hosted on a VM, I've now rewritten it in React and statically hosted it on Amazon S3.",
         "image": "/images/projects/davidliao.jpg",
         "type": "personal",
         "category": "web",
         "url": "https://www.davidliao.ca/",
         "skills": [
+            "React.js",
             "Java 8",
             "Spring MVC",
             "JSP",
@@ -76,7 +77,7 @@
     },
     {
         "name": "Online Bookstore",
-        "description": "A static serverless e-commerce bookstore, which sells books and other accessories. It has pie charts displaying key performance indicators like sales by product, sales by author, revenue breakdown (profit, publisher commission, expenditures, delivery fee).",
+        "description": "A static serverless e-commerce bookstore, which sells books and other related accessories. It features shopping carts, order history, inventory tracking, and sales insights with pie charts. It uses an AWS Aurora Serverless database, which is only in use during active database connections!",
         "image": "/images/projects/bookstore.jpg",
         "type": "personal",
         "category": "web",
@@ -89,11 +90,12 @@
             "React-Bootstrap",
             "PostgreSQL",
             "CSS"
-        ]
+        ],
+        "companyName": "Team of 2"
     },
     {
         "name": "FlaminGo Travel Planner",
-        "description": "A travel planner which suggests travel destinations, tourist attractions, hotels, and restaurants based on the user's budget for money and time. It also tries to minimize travel distance when moving between travel destinations. When finalized, it will generate a printable itinerary for them to bring on their trip.",
+        "description": "A travel planner which suggests travel destinations, tourist attractions, hotels, and restaurants based on the user's budget for money and time. It also tries to minimize travel distance when moving between travel destinations. When finalized, it will generate a printable itinerary for them to bring on their trip. (Desktop app)",
         "image": "/images/projects/flamingo.png",
         "type": "personal",
         "category": "desktop",
@@ -102,11 +104,12 @@
             "Java 8",
             "JavaFX",
             "Google Cloud"
-        ]
+        ],
+        "companyName": "Team of 4"
     },
     {
         "name": "CareerCounsel",
-        "description": "Planning to learn a new skill, purse a new degree, or just see what's new in the ever-changing tech industry? CareerCounsel will search through hundreds of real-time job postings in your area and tell you just exactly how many jobs are actually looking for a type of education or skill! This project is a React SPA with an EC2 server. In the back, I've also set up continuous deployment (CD) to automatically start a build and deployment process whenever a change is committed on GitHub, for both the front and back-end code.",
+        "description": "Planning to learn a new skill, purse a new degree, or just see what's new in the ever-changing tech industry? CareerCounsel will search through hundreds of real-time job postings in your area and tell you just exactly how many jobs are actually looking for a type of education or skill! This project is a React SPA with a Node.js backend running on an EC2 server, with CI/CD integration in GitHub using AWS CodePipeline.",
         "image": "/images/projects/careercounsel.jpg",
         "type": "personal",
         "category": "desktop app",
@@ -117,7 +120,8 @@
             "AWS",
             "CI/CD",
             "Webscraping"
-        ]
+        ],
+        "companyName": "Team of 2"
     },
     {
         "name": "Projectile Motion Simulator",
@@ -154,7 +158,7 @@
     },
     {
         "name": "Arduino Karaoke Machine",
-        "description": "An Arduino connected to an LCD screen that displays scrolling text while playing audio, simultaneously on a single thread. Volume adjustable!",
+        "description": "An Arduino connected to an LCD screen that displays scrolling text while playing audio, concurrently on a single thread. Volume adjustable!",
         "image": "https://img.youtube.com/vi/DeEAKgeGLb4/hqdefault.jpg",
         "type": "personal",
         "category": "arduino",
