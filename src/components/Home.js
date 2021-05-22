@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import BannerImageOverlay from './shared/components/BannerImageOverlay';
-import TextBox from './shared/components/TextBox';
+import BannerImageOverlay from './shared/BannerImageOverlay';
+import TextBox from './shared/TextBox';
 import Layout from './shared/Layout';
 
 const Home = () => (

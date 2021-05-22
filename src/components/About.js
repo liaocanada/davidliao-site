@@ -1,5 +1,5 @@
 import React from 'react';
-import Spacer from './shared/components/Spacer';
+import Spacer from './shared/Spacer';
 import Layout from './shared/Layout';
 
 const About = () => (

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Layout from './shared/Layout';
-import Spacer from './shared/components/Spacer';
+import Spacer from './shared/Spacer';
 import { Link } from 'react-router-dom';
 
 const ErrNotFound = () => (

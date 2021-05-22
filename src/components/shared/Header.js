@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Spacer from './components/Spacer';
+import Spacer from './Spacer';
 
 // TODO fix collapsible -- Bootstrap JS incompatible with React
 const Header = () => (

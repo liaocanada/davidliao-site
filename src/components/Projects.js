@@ -1,12 +1,12 @@
 import React from 'react';
 import Layout from './shared/Layout';
 import Tabs from './shared/Tabs';
+import Spacer from './shared/Spacer';
 import Project from './Project';
 import groupBy from '../helpers/groupBy';
 import insertEveryN from '../helpers/insertEveryN';
 
 import projects from '../data/projects.json';
-import Spacer from './shared/components/Spacer';
 
 const flexBoxWrapStyle = {
   display: "flex",
