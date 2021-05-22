@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faArrowRight, faAt, faMobileAlt, faLink, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faAt, faMobileAlt, faLink, faExternalLinkAlt, faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
 import capitalize from '../helpers/capitalize';
 
 // Pages
@@ -16,10 +16,11 @@ import Achievements from './Achievements';
 import Contact from './Contact';
 import Projects from './Projects';
 import Resume from './Resume';
+import ErrNotFound from './ErrNotFound';
 
 // Adding fonts to library allows them to be used as strings from the FontAwesomeIcon component
 // https://fontawesome.com/how-to-use/on-the-web/using-with/react
-library.add(fab, faArrowRight, faAt, faMobileAlt, faLink, faExternalLinkAlt);
+library.add(fab, faArrowRight, faAt, faMobileAlt, faLink, faExternalLinkAlt, faExclamationTriangle);
 
 const App = () => {
   const location = useLocation();
@@ -39,6 +40,7 @@ const App = () => {
         <Route exact path="/contact"><Contact /></Route>
         <Route exact path="/projects"><Projects /></Route>
         <Route exact path="/resume"><Resume /></Route>
+        <Route exact path="*"><ErrNotFound /></Route>
       </Switch>
   )
 };
